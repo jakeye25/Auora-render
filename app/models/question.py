@@ -2,7 +2,7 @@ from .db import db, environment, SCHEMA, add_prefix_for_prod
 from sqlalchemy.types import DateTime, Date
 from .upvotequestion import upvotesquestion
 
-class Answer(db.Model):
+class Question(db.Model):
     __tablename__ = 'questions'
 
     if environment == "production":
