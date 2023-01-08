@@ -3,6 +3,8 @@ from app.models import User, db
 from app.forms import LoginForm
 from app.forms import SignUpForm
 from flask_login import current_user, login_user, logout_user, login_required
+from app.s3_aws import (upload_file_to_s3, allowed_file, get_unique_filename)
+
 
 auth_routes = Blueprint('auth', __name__)
 
@@ -15,6 +17,7 @@ def validation_errors_to_error_messages(validation_errors):
     for field in validation_errors:
         for error in validation_errors[field]:
             errorMessages.append(f'{field} : {error}')
+            # errorMessages.append(f'{error}')
     return errorMessages
 
 
@@ -59,13 +62,37 @@ def sign_up():
     """
     Creates a new user and logs them in
     """
+    if "avatar" not in request.files:
+        # return {"errors": "image required"}, 400
+        url = "http://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    #     pass
+    else:
+
+        image = request.files["avatar"]
+    # print("&&&&&&&&&&&&&&&&&&&&&&&&&&", image)
+        if not allowed_file(image.filename):
+            return {"errors": "file type not permitted"}, 400
+
+        image.filename = get_unique_filename(image.filename)
+
+        upload = upload_file_to_s3(image)
+    # print("upload######################", upload)
+        if "url" not in upload:
+            return upload, 400
+
+        url = upload["url"]
+
     form = SignUpForm()
     form['csrf_token'].data = request.cookies['csrf_token']
     if form.validate_on_submit():
         user = User(
             username=form.data['username'],
             email=form.data['email'],
-            password=form.data['password']
+            password=form.data['password'],
+            # avatar=form.data['avatar']
+            avatar=url,
+            bio='',
+            description=''
         )
         db.session.add(user)
         db.session.commit()
