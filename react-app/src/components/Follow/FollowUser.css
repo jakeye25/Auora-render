@@ -1,0 +1,39 @@
+.unfollowButton-profilepage{
+    cursor: pointer;
+    border: 1px solid #2e69ff;
+    border-radius: 20px ;
+    padding: 6px 10px;
+    width: 150px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    font-size:13px;
+    font-weight: 500;
+    color: #2e69ff;
+}
+
+.unfollowButton-profilepage:hover{
+    background-color: rgb(235, 240, 255);
+}
+
+
+.followButton-profilepage{
+    cursor: pointer;
+    border: 1px solid #2e69ff;
+    border-radius: 20px ;
+    padding: 6px 10px;
+    width: 150px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    font-size:13px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(26,90,255, 0.8);
+}
+
+.followButton-profilepage:hover{
+    background-color: rgb(26, 90, 255);
+}

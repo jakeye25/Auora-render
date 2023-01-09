@@ -1,0 +1,27 @@
+.unfollowButton-MainPage{
+    padding-left: 15px;
+    cursor: pointer;
+    color: #939598;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.unfollowButton-MainPage:hover{
+    text-decoration: underline;
+    text-decoration-color: #939598;
+}
+
+.followButton-MainPage{
+    padding-left: 15px;
+    cursor: pointer;
+    color: #2e69ff;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.followButton-MainPage:hover{
+    text-decoration: underline;
+    text-decoration-color: #2e69ff;
+}

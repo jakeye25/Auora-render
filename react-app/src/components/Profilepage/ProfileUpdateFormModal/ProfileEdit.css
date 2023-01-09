@@ -1,0 +1,72 @@
+.profile-updatebtn{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    cursor: pointer;
+    color: #939598;
+}
+
+.profile-updatebtn:hover{
+    text-decoration: underline;
+}
+
+
+.edit_profile_input_bio{
+
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 20px 10px;
+    height: 30px;
+    width: 550px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #282829;
+}
+
+.edit_profile_input_bio:hover{
+    border: 1px solid rgba(28, 25, 180, 0.5);
+}
+
+.edit_profile_input_bio:focus{
+    outline: none;
+}
+
+.edit_profile_input_biochar{
+    position: absolute;
+    right: 40px;
+    top: 83px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #939598;
+}
+
+.edit_profile_input_des{
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 20px 10px;
+    height: 180px;
+    width: 550px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #282829;
+}
+
+
+.edit_profile_input_des:hover{
+    border: 1px solid rgba(28, 25, 180, 0.5);
+}
+
+.edit_profile_input_des:focus{
+    outline: none;
+}
+
+.edit_profile_input_deschar{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #939598;
+    position: absolute;
+    right: 40px;
+    bottom: 183px;
+}

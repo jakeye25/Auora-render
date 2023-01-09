@@ -1,0 +1,19 @@
+#logoutbtn{
+    border: none;
+    font-size: 13px;
+    line-height: 18px;
+    color: #282829;
+    font-weight: 400;
+    background-color: white;
+
+    border-top: 1px solid rgba(128,128,128,0.4);
+    text-align: left;
+    padding: 10px 20px;
+    line-height: 34px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#logoutbtn:hover{
+background-color: rgb(243, 245, 245, 0.7);
+}

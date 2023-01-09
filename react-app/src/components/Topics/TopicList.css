@@ -1,0 +1,30 @@
+.topicimg{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.topiclink{
+    text-decoration: none;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #636466;
+}
+
+#topic-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.indtopic-container{
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 10px;
+}
+
+.indtopic-container:hover{
+    background-color: rgb(228,230,230);
+    border-radius: 3px;
+}

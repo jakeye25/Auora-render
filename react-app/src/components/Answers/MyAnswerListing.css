@@ -1,0 +1,112 @@
+#myanswer-container{
+    padding-left: 29%;
+    padding-right: 22%;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+    min-height: 95vh;
+    background-color: #F1F2F2;
+    padding-bottom: 20px;
+}
+
+
+.myanswerlisting-top{
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    height: fit-content;
+    width: 550px;
+    background-color: white;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.my_answer_listing_innerbox{
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    height: fit-content;
+    width: 550px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.my_answer_listing_nav{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+}
+
+.my_answer_listing_link{
+    font-weight: bold;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: pre-wrap;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #282829;
+}
+
+.my_answer_listing_link:hover{
+    text-decoration: underline;
+}
+
+.myanswers-userbtn-container{
+    display: flex;
+    justify-content: space-between;
+}
+.myanswer-btn{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.my_answer_listing_profile{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.my_answer_listing_profile img{
+    border-radius: 500px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+
+}
+
+.my_answer_listing_profile-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+    /* align-items: center; */
+}
+
+.myanswerimg{
+    max-width: 500px;
+    height: auto;
+}
+
+.myanswer-content{
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.myanswer-btn{
+    margin-top: 10px;
+    display: flex;
+
+}

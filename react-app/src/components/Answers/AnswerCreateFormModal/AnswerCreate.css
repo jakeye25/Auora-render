@@ -1,0 +1,109 @@
+#create-ansbtn{
+    width: 90px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(28, 25, 180, 0.4);
+    color: rgba(28, 25, 180, 0.8);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.createanswer-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    width: 600px;
+}
+
+.createanswer-cross{
+    padding-left: 10px;
+}
+
+.createanswer-profile{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.createanswer-profile img{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 500px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+.createanswer-question{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #282829;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.create_answer_input{
+    padding-left: 15px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.create_answer_input_inner{
+    border: none;
+    height: 30px;
+    width: 550px;
+}
+
+.create_answer_input_inner:focus{
+    outline: none;
+}
+
+.create_answer_footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.4);
+    padding-bottom: 10px;
+}
+
+.create_answer_button{
+    cursor: pointer;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(25, 90, 255, 0.5);
+    border: none;
+}
+
+.create_answer_button:hover{
+    background-color: rgba(25, 90, 255, 0.9);
+}
+
+.create_answer_empty{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.create_answer_error{
+    color: red;
+}
+
+.create_answer_cancel{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.create_answer_cancel:hover{
+    background-color: rgba(128, 128, 128, 0.1);
+}

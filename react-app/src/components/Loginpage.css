@@ -1,0 +1,135 @@
+#loginbody{
+    background-image: url("//qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png");
+      /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#login_container{
+    background-color: #ffffff;
+    width: 44em;
+    /* height: 30em; */
+    border-radius: 4px;
+}
+
+#loginpage-logo {
+    padding-top: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+#loginpage-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginpage-middle{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#loginpage-middleleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    height:18em;
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    margin-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#loginpage-middleright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    justify-items: center;
+    height:20em;
+    margin-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+
+#loginpage-bottom{
+    background-color: #f1f2f2;
+    border-top: rgba(128, 128, 128, 0.5);
+    display: flex;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 2.1em;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-bottom: 3em; */
+}
+
+#loginpage-logodiv{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #1916cc;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#loginsecondlinetext{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    color: #636466;
+    margin-bottom: 20px;
+}
+
+#loginpage-middlelefttext{
+    width: 300px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #939598;
+    padding-left: 20px;
+
+}
+
+#loginpage-bottom{
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+.more_info_text{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgba(0, 68, 255, 0.5);
+}
+
+.about{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}

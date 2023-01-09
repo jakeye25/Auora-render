@@ -1,0 +1,24 @@
+
+
+
+
+
+#demobtn{
+
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    padding: 10px 5px;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #282829;
+    width: 280px;
+    padding: 10px ;
+    padding-left: 20px;
+}
+
+#demobtn:hover{
+    background-color: rgba(128, 128, 128, 0.1);
+}
