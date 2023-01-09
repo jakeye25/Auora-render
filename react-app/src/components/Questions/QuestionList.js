@@ -26,7 +26,11 @@ function QuestionList() {
     }
 
     let allquestions = Object.values(questions)
-    console.log("check question format", allquestions)
+    // console.log("check question format", allquestions)
+    allquestions.sort(function(a, b){
+        return b.id - a.id
+    })
+
     useEffect(() => {
         dispatch(thunkGetAllQuestion())
         dispatch(thunkGetAllQuestionAnswer())

@@ -16,9 +16,9 @@ function Searchbar() {
     const answersArr = Object.values(answers)
     const topicsArr = Object.values(topics)
 
-    console.log('qquestionarr', questionsArr)
-    console.log('aarr', answersArr)
-    console.log('topicarr', topicsArr)
+    // console.log('qquestionarr', questionsArr)
+    // console.log('aarr', answersArr)
+    // console.log('topicarr', topicsArr)
 
     const [searchWord, setSearchWord] = useState('')
     const [showDropdown, setShowDropdown] = useState(false);
@@ -29,14 +29,14 @@ function Searchbar() {
         const str2=[]
         for (let i =0; i<questionsArr.length; i++){
           let question = questionsArr[i];
-          if (question.questioncontent.toLowerCase().includes(word.toLowerCase())
+          if (question.questioncontent.toLowerCase().startsWith(word.toLowerCase())
           ){
             str1.push(question)
           }
         }
         for (let i =0; i<topicsArr.length; i++){
             let topic = topicsArr[i];
-            if (topic.name.toLowerCase().includes(word.toLowerCase())
+            if (topic.name.toLowerCase().startsWith(word.toLowerCase())
             ){
               str2.push(topic)
             }
