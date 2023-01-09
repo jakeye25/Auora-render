@@ -2,7 +2,7 @@
 
 Auora is a web-application clone inspired by [Quora](https://www.quora.com/), that allows users to ask and answer questions through the platform. It is also a place to social with the people with same interests.
 
-* [Auora](https://auora.herokuapp.com/)
+* [Auora](https://auora.onrender.com)
 
 ### Please see below links to Project Wiki:
 
