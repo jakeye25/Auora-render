@@ -64,6 +64,17 @@ const LoginPage = () => {
                             Portfolio
                             </a>
                         </div>
+                        <div>
+                            <i className="fa-regular fa-envelope fa-lg">&nbsp;</i>
+                            <a
+                            className="more_info_text"
+                            href="mailto:jayyeucla@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            Email
+                            </a>
+                        </div>
 
 
                     </div>
