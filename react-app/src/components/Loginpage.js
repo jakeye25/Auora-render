@@ -53,6 +53,17 @@ const LoginPage = () => {
                             Github
                             </a>
                         </div>
+                        <div>
+                            <i className="fa-regular fa-folder-open fa-lg">&nbsp;</i>
+                            <a
+                            className="more_info_text"
+                            href="https://jakeye25.github.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            Portfolio
+                            </a>
+                        </div>
 
 
                     </div>
