@@ -21,6 +21,7 @@ import ProfilePage_Answer from './components/Profilepage/ProfilePage_Answer';
 import ProfilePage_Questions from './components/Profilepage/ProfilePage_Question';
 import ProfilePage_Followers from './components/Profilepage/ProfilePage_Follower';
 import ProfilePage_Following from './components/Profilepage/ProfilePage_Following';
+import SocialLinks from './components/Social_links/social';
 
 
 
@@ -43,6 +44,7 @@ function App() {
   return (
     <BrowserRouter>
       {currentUser ? <NavBar /> : <></>}
+      {currentUser ? <SocialLinks /> : <></>}
       <Switch>
         <Route exact path="/myquestions">
             <MyQuestionListings />
